@@ -1,13 +1,10 @@
-import 'package:project_name/screens/login/login_screen.dart';
-import 'package:project_name/screens/sign_up/ask_location_permission_screen.dart';
+import 'package:project_name/screens/login/login.dart';
 import 'package:project_name/widgets/custom_snackbar.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:project_name/constants/constants.dart';
-import 'package:project_name/models/user.dart';
 import 'package:project_name/services/authentication.dart';
 import 'package:project_name/widgets/custom_textfield.dart';
-import 'package:project_name/services/authentication.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);

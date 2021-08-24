@@ -2,12 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:project_name/screens/producer/home/producer_home.dart';
-import 'package:project_name/screens/sign_up/ask_location_permission_screen.dart';
 import 'package:project_name/services/authentication.dart';
 import 'package:project_name/services/APIServices.dart';
-import 'package:project_name/services/cart.dart';
-import 'package:project_name/services/user_data.dart';
 
 import 'screens/home/home.dart';
 import 'screens/landing_page/landing_page.dart';

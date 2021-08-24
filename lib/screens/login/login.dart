@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:project_name/constants/constants.dart';
-import 'package:project_name/models/user.dart';
-import 'package:project_name/screens/home/home_screen.dart';
-import 'package:project_name/screens/sign_up/ask_location_permission_screen.dart';
+import 'package:project_name/screens/home/home.dart';
 import 'package:project_name/services/authentication.dart';
 import 'package:project_name/widgets/custom_snackbar.dart';
 import 'package:project_name/widgets/custom_textfield.dart';
